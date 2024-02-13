@@ -1,0 +1,23 @@
+{
+  "name": "cypressuiproject",
+  "version": "1.0.0",
+  "description": "Cypress UI Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "open": "cypress open --e2e",
+    "open2": "cypress open --e2e --browser chrome"
+  },
+  "keywords": [
+    "Misha",
+    "2024",
+    "Cypress"
+  ],
+  "author": "Mary Ru",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.4",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
+  }
+}
