@@ -1,4 +1,4 @@
-import { defineConfig } = from 'cypress'
+import { defineConfig }  from 'cypress'
 
 export default defineConfig({
   viewportHeight: 1280,
@@ -13,7 +13,8 @@ export default defineConfig({
     env: {
       stage:'https://stage.pasv.us/course',
       prod: 'https://coding.pasv.us/course',
-      info: 'Hello World!'
+      info: 'Hello World!',
+      herokuapp: 'https://the-internet.herokuapp.com'
     }
   },
   defaultCommandTimeout: 16_000,

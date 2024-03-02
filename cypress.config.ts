@@ -12,7 +12,8 @@ export default defineConfig({
     env:{
       stage:'https://stage.pasv.us/course',
       prod:'https://coding.pasv.us/course',
-      test:'Hello World!'
+      test:'Hello World!',
+      herokuapp: 'https://the-internet.herokuapp.com/javascript_alerts'
     }
   },
   defaultCommandTimeout: 15_000,
