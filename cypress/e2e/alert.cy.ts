@@ -1,4 +1,4 @@
-import {AlertPage} from "../../pom/Alert";
+import {AlertPage} from "../../pom/alert";
 import {beforeEach} from "mocha";
 //Cypress.session.clearAllSavedSessions
 
