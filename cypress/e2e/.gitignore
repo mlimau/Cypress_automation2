@@ -1,6 +1,4 @@
 .idea
-cypress.config.ts
 /node_modules/
 package.json
-tsconfig.json
 .git
