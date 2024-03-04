@@ -87,7 +87,6 @@ describe('TEXT BOX tests', () => {
           cy.get('a[href]').eq(i).then(link => {
             const hrefText = link.text().trim()//get the text from href
             cy.log(hrefText, (i), 'Text Link')
-            cy.log(i)
             cy.wrap(link).should('contain', hrefText)
           })
         }
