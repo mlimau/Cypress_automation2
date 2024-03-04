@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aeca0e7f-a2ee-428d-b22a-08872f9f6e45" name="Changes" comment="Alert, Prompt POM">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/e2e/alert.cy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/alert.cy.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom/Alert.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pom/Alert.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom/Alert.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pom/alert.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +32,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -149,7 +148,7 @@
       <updated>1692292927372</updated>
       <workItem from="1709334521708" duration="705000" />
       <workItem from="1709336326598" duration="5066000" />
-      <workItem from="1709413746888" duration="12667000" />
+      <workItem from="1709413746888" duration="13376000" />
     </task>
     <task id="LOCAL-00001" summary="Alert, Prompt POM">
       <option name="closed" value="true" />
@@ -207,7 +206,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709576951061</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Alert, Prompt POM">
+      <option name="closed" value="true" />
+      <created>1709579110568</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709579110568</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Alert, Prompt POM">
+      <option name="closed" value="true" />
+      <created>1709579235477</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709579235477</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
