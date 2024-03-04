@@ -28,7 +28,7 @@ class Alert {
         cy.get(this.resultSelector).should('have.text', this.cancelTextRes)
     }
     jsPropmt(){
-         //cy.stub - код создает заглушку для метода prompt, которая возвращает текст "Hello Mary".
+        //cy.stub - код создает заглушку для метода prompt, которая возвращает текст "Hello Mary".
         // Затем, при клике на элемент, содержащий текст, указанный в this.jsPromptBtn,
         // будет симулирован ввод текста в окне prompt с помощью созданной заглушки.
         const inputText = 'Hello Mary'

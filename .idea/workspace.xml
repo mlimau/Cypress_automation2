@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="aeca0e7f-a2ee-428d-b22a-08872f9f6e45" name="Changes" comment="Alert, Prompt POM">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/alert.cy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/alert.cy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom/Alert.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pom/Alert.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +32,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -40,6 +46,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Cypress.all tests in alert.cy.ts (1).executor": "Run",
+    "Cypress.all tests in alert.cy.ts (2).executor": "Run",
     "Cypress.all tests in alert.cy.ts.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -57,7 +64,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="npm.open">
+  <component name="RunManager" selected="Cypress.all tests in alert.cy.ts (2)">
     <configuration name="all tests in alert.cy.ts (1)" type="JavaScriptTestRunnerCypress" temporary="true">
       <node-interpreter value="project" />
       <cypress-package value="$PROJECT_DIR$/node_modules/cypress" />
@@ -69,6 +76,20 @@
       <test-names>
         <test-name value="ALERT testing" />
         <test-name value="Click on JS confirm Cancel" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="all tests in alert.cy.ts (2)" type="JavaScriptTestRunnerCypress" temporary="true">
+      <node-interpreter value="project" />
+      <cypress-package value="$PROJECT_DIR$/node_modules/cypress" />
+      <working-dir value="$PROJECT_DIR$/cypress" />
+      <cypress-options value="-q" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/cypress/e2e/alert.cy.ts" />
+      <test-names>
+        <test-name value="ALERT testing" />
+        <test-name value="JS Prompt click" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -107,6 +128,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cypress.all tests in alert.cy.ts (2)" />
         <item itemvalue="npm.open" />
         <item itemvalue="npm.start" />
         <item itemvalue="Cypress.all tests in alert.cy.ts (1)" />
@@ -127,7 +149,7 @@
       <updated>1692292927372</updated>
       <workItem from="1709334521708" duration="705000" />
       <workItem from="1709336326598" duration="5066000" />
-      <workItem from="1709413746888" duration="10294000" />
+      <workItem from="1709413746888" duration="12667000" />
     </task>
     <task id="LOCAL-00001" summary="Alert, Prompt POM">
       <option name="closed" value="true" />
@@ -169,7 +191,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709424799318</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Alert, Prompt POM">
+      <option name="closed" value="true" />
+      <created>1709576647704</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709576647704</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Alert, Prompt POM">
+      <option name="closed" value="true" />
+      <created>1709576951061</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709576951061</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
