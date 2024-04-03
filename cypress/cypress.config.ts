@@ -6,7 +6,7 @@ export default defineConfig({
   video: true,
   watchForFileChanges: true,
   e2e: {
-    baseUrl: 'https://uitestingplayground.com/home',
+    baseUrl: 'https://uitestingplayground.com',
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
@@ -14,7 +14,8 @@ export default defineConfig({
       stage:'https://stage.pasv.us/course',
       prod: 'https://coding.pasv.us/course',
       info: 'Hello World!',
-      herokuapp: 'https://the-internet.herokuapp.com'
+      herokuapp: 'https://the-internet.herokuapp.com',
+      demoQA: 'https://demoqa.com'
     }
   },
   defaultCommandTimeout: 16_000,

@@ -1,15 +1,16 @@
 {
-  "name": "cypressuiproject",
+  "name": "mainCypressUiproject",
   "version": "1.0.0",
   "description": "Cypress UI Project",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "open": "cypress open --e2e",
-    "open2": "cypress open --e2e --browser chrome"
+    "open2": "cypress open --e2e --browser chrome",
+    "cypress-run": "cypress run --browser chrome --spec cypress/e2e/autoFill.cy.ts"
   },
   "keywords": [
-    "Misha",
+    "Main worked project 03.25.24",
     "2024",
     "Cypress"
   ],
@@ -17,6 +18,7 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^13.6.6",
+    "cypress-mochawesome-reporter": "^3.8.2",
     "mocha": "^10.3.0",
     "prettier": "^3.2.5",
     "typescript": "^5.3.3"
