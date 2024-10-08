@@ -40,7 +40,7 @@ describe('TEXT BOX tests', () => {
       arr.push(linkText)//помещаем текст в arr
                     
       cy.get('#overview .col-sm a').its('length').then((linksLength) => {//get the length of the arr
-        for (let i = 0; i < linksLength; i++) {//launch a loop ()обозначили Какое количество линков кликнуть
+        for (let i = 0; i < linksLength; i++) {
           console.log(linksLength, 'length')
           cy.get('#overview .col-sm a').eq(i).click()//click on each in loop
                 
@@ -49,7 +49,7 @@ describe('TEXT BOX tests', () => {
             .and('be.visible')
           cy.contains('.nav-link', 'Home').click()//back on main page to make a next click
           cy.wait(3000)
-          //тест провалился на четвёртом элементе так как текст не соответствует Линку (bug)Delay - Delays
+          
         }
       })
     
@@ -57,7 +57,7 @@ describe('TEXT BOX tests', () => {
   })
     
   //This is an attribute selector.It selects elements where the class attribute starts with the string 'row'.
-  it('Search all links by ^', () => {//мы нашли общее количество рядов и в каждом ряду методом find нашли класс который нам нужно проверить
+  it('Search all links by ^', () => {
     cy.get('div[class^="row"]').each(row => {
       cy.wrap(row).find('div[class^="col-sm"]').should('have.class', 'col-sm')//
     })
@@ -81,11 +81,11 @@ describe('TEXT BOX tests', () => {
   })
   it.only('Testing hrefs text', () => {
       
-      cy.get('a[href]').its('length').then(hrefLength => {//нашли общее количество href
-        for (let i = 0; i < hrefLength; i++) {//Пошли по ним циклoм
-          if (i > 4 && i < 21) { //исключили лишнее links
+      cy.get('a[href]').its('length').then(hrefLength => {
+        for (let i = 0; i < hrefLength; i++) {/
+          if (i > 4 && i < 21) { 
           cy.get('a[href]').eq(i).then(link => {
-            const hrefText = link.text().trim()//get the text from href
+            const hrefText = link.text().trim()
             cy.log(hrefText, (i), 'Text Link')
             cy.wrap(link).should('contain', hrefText)
           })
