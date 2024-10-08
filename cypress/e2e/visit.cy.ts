@@ -18,7 +18,7 @@ describe('WebApp', () => {
     });
 
     it.only('Text in container, using Within with child', ()=> {
-        cy.get('.col-sm').first().within(title => {//сработало с потому что в этой группе очень много элементов и он не понимает который взять            
+        cy.get('.col-sm').first().within(title => {        
         cy.get('#citation').should('have.text', 'Quality is not an act, it is a habit.Aristotle')
         })
     })
