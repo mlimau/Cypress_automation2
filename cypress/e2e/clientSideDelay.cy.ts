@@ -13,8 +13,7 @@ describe('LOAD DELAY', () => {
                         .and('have.css', 'background-color', 'rgb(0, 123, 255)').click()
         cy.get('#spinner').should('be.visible').and('exist')
 //second click
-        cy.get('#content').children().should('have.length', 2)//после второго клика появилось второе окошко Я нашла родителя И обозначила что теперь двое детей
- 
+        cy.get('#content').children().should('have.length', 2)
         //third click       
         cy.get('#ajaxButton').should('be.visible').and('exist').click()
         cy.get('#spinner').should('be.visible').and('exist')
