@@ -10,7 +10,7 @@ describe('ALERT testing', () => {
         //})
     })
     it('Text testing', () => {
-       AlertPage.jsAlert()//тест с var/POM у нас прописан в pom, здесь только одна строка=all test
+       AlertPage.jsAlert()
         })
 
     it('Click on JS confirm Cancel', () => {
